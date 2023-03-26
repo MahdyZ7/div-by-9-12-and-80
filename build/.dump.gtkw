@@ -1,35 +1,32 @@
 [*]
 [*] GTKWave Analyzer v3.3.110 (w)1999-2020 BSI
-[*] Sun Mar 26 12:47:09 2023
+[*] Sun Mar 26 13:46:24 2023
 [*]
-[dumpfile] "/home/runner/divby9/build/dump.vcd"
-[dumpfile_mtime] "Sun Mar 26 12:47:09 2023"
-[dumpfile_size] 4705
-[savefile] "/home/runner/divby9/build/.dump.gtkw"
+[dumpfile] "/home/runner/div-by-9-12-and-80/build/dump.vcd"
+[dumpfile_mtime] "Sun Mar 26 13:46:24 2023"
+[dumpfile_size] 2294
+[savefile] "/home/runner/div-by-9-12-and-80/build/.dump.gtkw"
 [timestart] 1
-[size] 1530 794
+[size] 1137 794
 [pos] -1 -1
 *-1.827939 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] testbench.
 [sst_width] 292
 [signals_width] 126
 [sst_expanded] 1
-[sst_vpaned_height] 447
+[sst_vpaned_height] 477
 @200
 -Input
-@28
-testbench.dut.clk
-testbench.dut.reset
-@200
 -
+@29
+testbench.dut3.clk
 @28
-testbench.dut.reset
+testbench.dut3.reset
 @200
 -Output
 @28
-testbench.dut.out
-testbench.d2.clk_tx
-@25
+testbench.dut3.out
+@24
 testbench.counter.counter[6:0]
 [pattern_trace] 1
 [pattern_trace] 0

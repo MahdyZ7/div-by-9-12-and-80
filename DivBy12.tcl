@@ -5,14 +5,14 @@ sh date
 sh echo "Current git version is `git rev-parse --short HEAD`"
 # source .alsaqr_synopsys_dc.setup
 ## desgin tcl files -.-
-source ./design_setup1.tcl
+source ./design_setup.tcl
 # source scripts/area_report.tcl
 
 
 set reAnalyzeRTL "TRUE"
-set TRIAL_DIR "clk_div"
+set TRIAL_DIR "DivBy12"
 ## name of top module -.-
-set DESIGN_NAME "CLKDIVS"
+set DESIGN_NAME "div_by_12_50dut"
  
 ####################################################################
 ## Environment Setup
@@ -37,10 +37,7 @@ sh date > ${TRIAL_DIR}/lock_date
 ## ANALYZE THE RTL CODE or Read the GTECH 
 ####################################################################
 ## name of files to synthasise -.-
-analyze -format verilog { ./CLKDIVS.v ./divide3.v ./divide5.v \
-		     ./divideby2.v \
-		     ./divide3_mihai.v ./divide5_mihai.v \
-			./adder.v}
+analyze -format verilog { ./div_by_12_50dut.v }
 
 #read_sverilog /eda_work/Asif/FLL_final_rtl/gf22_FLL.sv
 ####################################################################
@@ -50,7 +47,7 @@ analyze -format verilog { ./CLKDIVS.v ./divide3.v ./divide5.v \
 elaborate ${DESIGN_NAME} -work work > ${TRIAL_DIR}/reports/d00_elaborate.log
 check_design> ${TRIAL_DIR}/reports/d01_check_design_postElab.rpt
 ## name of current desin -.-
-current_design CLKDIVS
+current_design DivBy12
 write -format verilog -hier -o ./${TRIAL_DIR}/unmapped/${DESIGN_NAME}_chip_unmapped.v
 write -format ddc -hier -o ./${TRIAL_DIR}/unmapped/${DESIGN_NAME}_chip_unmapped.ddc ${DESIGN_NAME}
 
@@ -93,7 +90,7 @@ set_operating_conditions -max SSG_0P72V_0P00V_0P00V_0P00V_M40C
 ####################################################################
 set_app_var hdlin_sv_enable_rtl_attributes true
 ## put constrains file -.-
-source -echo -verbose ./myconstraints.sdc     > ${TRIAL_DIR}/reports/d05_constr_clk.rpt
+source -echo -verbose ./constraints.sdc     > ${TRIAL_DIR}/reports/d05_constr_clk.rpt
 
 ####################################################################
 ## INSERT CLK GATING CELLS
