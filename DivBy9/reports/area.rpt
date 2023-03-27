@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : div_by_9_50dut
+Version: S-2021.06-SP5-5
+Date   : Sun Mar 26 18:32:10 2023
+****************************************
+
+Library(s) Used:
+
+    GF22FDX_SC8T_104CPP_BASE_CSC24L_SSG_0P72V_0P00V_0P00V_0P00V_M40C (File: /home/eda_work/asif/22nm_lib/dbs/24lvt_dbs/GF22FDX_SC8T_104CPP_BASE_CSC24L_SSG_0P72V_0P00V_0P00V_0P00V_M40C_ccs.db)
+    GF22FDX_SC8T_104CPP_BASE_CSC28L_SSG_0P72V_0P00V_0P00V_0P00V_M40C (File: /home/eda_work/asif/22nm_lib/dbs/28lvt_dbs/GF22FDX_SC8T_104CPP_BASE_CSC28L_SSG_0P72V_0P00V_0P00V_0P00V_M40C_ccs.db)
+
+Number of ports:                            5
+Number of nets:                            16
+Number of cells:                           14
+Number of combinational cells:             10
+Number of sequential cells:                 4
+Number of macros/black boxes:               0
+Number of buf/inv:                          4
+Number of references:                       6
+
+Combinational area:                  2.462720
+Buf/Inv area:                        0.532480
+Noncombinational area:               6.123520
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                     8.586240
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+div_by_9_50dut                       8.5862    100.0    2.4627     6.1235  0.0000  div_by_9_50dut
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                   2.4627     6.1235  0.0000
+
+1
