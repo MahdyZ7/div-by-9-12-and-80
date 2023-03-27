@@ -1,0 +1,16 @@
+ 
+****************************************
+check_design summary:
+Version:     S-2021.06-SP5-5
+Date:        Mon Mar 27 14:26:36 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      2
+    Unconnected ports (LINT-28)                                     2
+--------------------------------------------------------------------------------
+
+Warning: In design 'div_by_12_50dut', port 'VDD' is not connected to any nets. (LINT-28)
+Warning: In design 'div_by_12_50dut', port 'VSS' is not connected to any nets. (LINT-28)
+1

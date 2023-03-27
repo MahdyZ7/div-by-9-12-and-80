@@ -1,0 +1,28 @@
+Loading db file '/usr/synopsys/syn/S-2021.06-SP5-5/libraries/syn/gtech.db'
+Loading db file '/usr/synopsys/syn/S-2021.06-SP5-5/libraries/syn/standard.sldb'
+  Loading link library 'GF22FDX_SC8T_104CPP_BASE_CSC20L_SSG_0P72V_0P00V_0P00V_0P00V_M40C'
+  Loading link library 'GF22FDX_SC8T_104CPP_BASE_CSC20SL_SSG_0P72V_0P00V_0P00V_0P00V_M40C'
+  Loading link library 'GF22FDX_SC8T_104CPP_BASE_CSC24L_SSG_0P72V_0P00V_0P00V_0P00V_M40C'
+  Loading link library 'GF22FDX_SC8T_104CPP_BASE_CSC24SL_SSG_0P72V_0P00V_0P00V_0P00V_M40C'
+  Loading link library 'GF22FDX_SC8T_104CPP_BASE_CSC28L_SSG_0P72V_0P00V_0P00V_0P00V_M40C'
+  Loading link library 'GF22FDX_SC8T_104CPP_BASE_CSC28SL_SSG_0P72V_0P00V_0P00V_0P00V_M40C'
+  Loading link library 'IN22FDX_R1PH_NFHN_W00256B046M02C256_104cpp_SSG_0P720V_0P000V_0P000V_M40C'
+  Loading link library 'IN22FDX_R1PH_NFHN_W00256B128M02C256_104cpp_SSG_0P720V_0P000V_0P000V_M40C'
+  Loading link library 'IN22FDX_S1D_NFRG_W04096B032M04C128_104cpp_SSG_0P720V_0P720V_0P000V_0P000V_M40C'
+  Loading link library 'IN22FDX_GPIO18_10M19S40PI_SSG_0P72_1P62_M40'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine div_by_12_50dut line 11 in file
+		'./div_by_12_50dut.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       out_reg       | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|      count_reg      | Flip-flop |   3   |  Y  | Y  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (div_by_12_50dut)
+Elaborated 1 design.
+Current design is now 'div_by_12_50dut'.
+1

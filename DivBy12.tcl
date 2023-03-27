@@ -45,7 +45,7 @@ analyze -format verilog { ./div_by_12_50dut.v }
 ####################################################################
 
 elaborate ${DESIGN_NAME} -work work > ${TRIAL_DIR}/reports/d00_elaborate.log
-check_design> ${TRIAL_DIR}/reports/d01_check_design_postElab.rpt
+check_design > ${TRIAL_DIR}/reports/d01_check_design_postElab.rpt
 ## name of current desin -.-
 current_design DivBy12
 write -format verilog -hier -o ./${TRIAL_DIR}/unmapped/${DESIGN_NAME}_chip_unmapped.v
@@ -116,7 +116,7 @@ check_design                                              > ./${TRIAL_DIR}/repor
 ####################################################################
 ## POST SYNTHESIS UNIQUIFY 
 ####################################################################
-set uniquify_naming_style "CLKDivider_%s_%d"
+set uniquify_naming_style "DivBy12_%s_%d"
 uniquify -force                                           > ./${TRIAL_DIR}/reports/d13_uniquify_post_synth.rpt
 
 ###################################################################
