@@ -1,0 +1,31 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : div_by_80_50dut
+Version: S-2021.06-SP5-5
+Date   : Mon Mar 27 10:05:54 2023
+****************************************
+
+Operating Conditions: SSG_0P72V_0P00V_0P00V_0P00V_M40C   Library: GF22FDX_SC8T_104CPP_BASE_CSC20L_SSG_0P72V_0P00V_0P00V_0P00V_M40C
+Wire Load Model Mode: top
+
+  Startpoint: out_reg (rising edge-triggered flip-flop)
+  Endpoint: out (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  out_reg/CLK (SC8T_DFFQX1_CSC28L)         0.00       0.00 r
+  out_reg/Q (SC8T_DFFQX1_CSC28L)         111.43     111.43 f
+  out (out)                                0.00     111.43 f
+  data arrival time                                 111.43
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
