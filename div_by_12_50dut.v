@@ -17,7 +17,7 @@ module div_by_12_50dut(
 			count[1] <= ~count[2];
 			count[2] <= count[0];
 			if (~count[2] & ~count[1])
-				out = ~out;
+				out <= ~out;
 		end
 	end
 	// assign out = (~mid4 & (mid1 | mid2)) | (clk & mid2);	
