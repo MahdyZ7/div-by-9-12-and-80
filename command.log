@@ -1,6 +1,10 @@
 #@ # 
 #@ # Running dc_shell Version S-2021.06-SP5-5 for linux64 -- Sep 20, 2022
+<<<<<<< HEAD
 #@ # Date:   Mon Mar 27 10:10:04 2023
+=======
+#@ # Date:   Mon Mar 27 09:05:28 2023
+>>>>>>> 8db16edf3e760bac24fac6ae527f8c8d1e96900d
 #@ # Run by: yasin@ksrc5.kunet.ae
 #@ 
 
@@ -8499,6 +8503,10 @@ source /usr/synopsys/syn/S-2021.06-SP5-5/admin/setup/.synopsys_dc.setup
 
 #@ # -- End source /usr/synopsys/syn/S-2021.06-SP5-5/admin/setup/.synopsys_dc.setup
 
+<<<<<<< HEAD
+=======
+source DivBy80
+>>>>>>> 8db16edf3e760bac24fac6ae527f8c8d1e96900d
 source DivBy80.tcl
 #@ # -- Starting source DivBy80.tcl
 
@@ -46740,5 +46748,8 @@ source DivBy80.tcl
 
 #@ # -- End source DivBy80.tcl
 
+<<<<<<< HEAD
 check_design
+=======
+>>>>>>> 8db16edf3e760bac24fac6ae527f8c8d1e96900d
 exit

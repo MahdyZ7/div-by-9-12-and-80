@@ -7,7 +7,11 @@ Report : timing
         -max_paths 100
 Design : div_by_80_50dut
 Version: S-2021.06-SP5-5
+<<<<<<< HEAD
 Date   : Mon Mar 27 10:15:37 2023
+=======
+Date   : Mon Mar 27 09:11:13 2023
+>>>>>>> 8db16edf3e760bac24fac6ae527f8c8d1e96900d
 ****************************************
 
 Operating Conditions: SSG_0P72V_0P00V_0P00V_0P00V_M40C   Library: GF22FDX_SC8T_104CPP_BASE_CSC20L_SSG_0P72V_0P00V_0P00V_0P00V_M40C
