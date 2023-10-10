@@ -2,7 +2,7 @@ module testbench();
 	reg clk;
 	output wire q;
 	output reg rst;
-	output wire [6:0]clk_rx;
+	output wire [6:0]count;
 	
 
 	// int i = 0;

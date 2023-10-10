@@ -1,13 +1,13 @@
 [*]
 [*] GTKWave Analyzer v3.3.110 (w)1999-2020 BSI
-[*] Sun Mar 26 13:46:24 2023
+[*] Thu Apr 27 07:14:47 2023
 [*]
 [dumpfile] "/home/runner/div-by-9-12-and-80/build/dump.vcd"
-[dumpfile_mtime] "Sun Mar 26 13:46:24 2023"
+[dumpfile_mtime] "Thu Apr 27 07:14:47 2023"
 [dumpfile_size] 2294
 [savefile] "/home/runner/div-by-9-12-and-80/build/.dump.gtkw"
 [timestart] 1
-[size] 1137 794
+[size] 1016 794
 [pos] -1 -1
 *-1.827939 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] testbench.

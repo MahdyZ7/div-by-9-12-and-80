@@ -6,7 +6,7 @@
 
 
 module div_by_12_50dut ( reset, clk, out, vdd, vss );
-  input reset, clk;
+  input reset, clk;w
   output out;
   inout vdd,  vss;
   wire   N6, N7, N8, n4, n5, n6, n7;

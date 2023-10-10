@@ -20,6 +20,5 @@ module div_by_12_50dut(
 				out <= ~out;
 		end
 	end
-	// assign out = (~mid4 & (mid1 | mid2)) | (clk & mid2);	
 
 endmodule
